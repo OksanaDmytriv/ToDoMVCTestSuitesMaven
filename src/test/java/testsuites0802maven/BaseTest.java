@@ -1,4 +1,4 @@
-package testsuites0802maven.features;
+package testsuites0802maven;
 
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Screenshots;

@@ -1,4 +1,4 @@
-package testsuites0802maven.features;
+package testsuites0802maven;
 
 import org.junit.Test;
 import org.junit.experimental.categories.Category;

@@ -89,17 +89,29 @@
             <id>Smoke</id>
             <properties>
                 <test.includeCategories>testsuites0802maven.categories.Smoke</test.includeCategories>
-                <test.excludeCategories></test.excludeCategories>
+                <test.excludeCategories>testsuites0802maven.categories.Buggy</test.excludeCategories>
             </properties>
         </profile>
         <profile>
             <id>Buggy</id>
             <properties>
+                <test.includeCategories>testsuites0802maven.categories.Buggy</test.includeCategories>
+                <test.excludeCategories></test.excludeCategories>
+            </properties>
+        </profile>
+        <profile>
+            <id>All</id>
+            <properties>
                 <test.includeCategories></test.includeCategories>
-                <test.excludeCategories>testsuites0802maven.categories.Smoke</test.excludeCategories>
+                <test.excludeCategories></test.excludeCategories>
+            </properties>
+        </profile>
+        <profile>
+            <id>FullAcceptance</id>
+            <properties>
+                <test.includeCategories></test.includeCategories>
+                <test.excludeCategories>testsuites0802maven.categories.Buggy</test.excludeCategories>
             </properties>
         </profile>
     </profiles>
-
-
 </project>
