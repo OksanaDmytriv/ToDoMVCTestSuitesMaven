@@ -3,13 +3,12 @@ package testsuites0802maven;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import testsuites0802maven.categories.Buggy;
-import testsuites0802maven.categories.Smoke;
 
 import static testsuites0802maven.pages.ToDoMVC.TaskType.ACTIVE;
 import static testsuites0802maven.pages.ToDoMVC.TaskType.COMPLETED;
 import static testsuites0802maven.pages.ToDoMVC.*;
 
-@Category(Smoke.class)
+
 public class TodosOperationsAtAllFilterTest extends BaseTest {
 
     @Test
